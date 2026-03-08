@@ -4,23 +4,7 @@ import { Code2, Database, Layout, Zap } from 'lucide-react'
 
 const Skills = () => {
   // Skills data for visualizations
-  const proficiencyData = [
-    { skill: 'Java', level: 92 },
-    { skill: 'Spring Boot', level: 88 },
-    { skill: 'MySQL', level: 85 },
-    { skill: 'REST APIs', level: 87 },
-    { skill: 'HTML/CSS', level: 80 },
-    { skill: 'Git/GitHub', level: 85 },
-  ]
-
-  const skillsGrowth = [
-    { month: 'Sept', competency: 65 },
-    { month: 'Nov', competency: 72 },
-    { month: 'Jan', competency: 78 },
-    { month: 'Mar', competency: 85 },
-    { month: 'May', competency: 90 },
-    { month: 'Jul', competency: 92 },
-  ]
+  
 
   const radarData = [
     { category: 'Java', value: 92 },

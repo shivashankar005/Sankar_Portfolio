@@ -11,7 +11,7 @@ const Projects = () => {
       github: 'https://github.com'
     },
     {
-      title: 'E-Commerce Backend - Spring Boot',
+      title: 'Online retail Management system',
       description: 'Production-ready e-commerce platform with Spring Boot. Implemented CRUD operations, product catalog management, file handling via MultipartFile, and JPA relationships. Followed MVC architecture with MySQL persistence layer.',
       image: 'https://images.unsplash.com/photo-1460925895917-aaf4b51b34b8?w=600&h=400&fit=crop',
       technologies: ['Spring Boot', 'JPA', 'MySQL', 'REST APIs'],
