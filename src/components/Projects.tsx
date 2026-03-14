@@ -17,13 +17,13 @@ const Projects = () => {
       technologies: ['Spring Boot', 'JPA', 'MySQL', 'REST APIs'],
       github: 'https://github.com'
     },
-    {
+   {
   title: "Job Application Tracker",
   description:
-    "Full stack job management system where users apply for jobs and admins manage postings and applications.",
-  tech: ["Spring Boot", "MySQL", "Thymeleaf"],
-  github: "https://github.com/shivashankar005/Job_Application_Tracker",
-  demo: "#"
+    "Full stack job management system where users apply for jobs and admins manage job postings and applications.",
+  image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=600&h=400&fit=crop",
+  technologies: ["Spring Boot", "MySQL", "Thymeleaf"],
+  github: "https://github.com/shivashankar005/Job_Application_Tracker"
 }
   ]
 
