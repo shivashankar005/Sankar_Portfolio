@@ -9,7 +9,7 @@ const Projects = () => {
     "Spring Boot based e-commerce management platform with CRUD operations, product catalog management, and MySQL persistence using JPA.",
   image: "https://images.unsplash.com/photo-1557821552-17105176677c?w=600&h=400&fit=crop",
   technologies: ["Spring Boot", "JPA", "MySQL", "REST APIs"],
-  github: "https://github.com/your-repo"
+  github: "https://github.com/shivashankar005/Online_Retail_Management_System"
 },
 
 {
@@ -19,14 +19,6 @@ const Projects = () => {
   image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=600&h=400&fit=crop",
   technologies: ["Spring Boot", "MySQL", "Thymeleaf"],
   github: "https://github.com/shivashankar005/Job_Application_Tracker"
-},
-    {
-  title: "Toxic Comment Detection - NLP & BERT",
-  description:
-    "Content moderation system leveraging BERT and NLP algorithms to classify toxic comments with scalable MySQL storage.",
-  image: "https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=600&h=400&fit=crop",
-  technologies: ["Python", "BERT", "NLP", "RapidAPI", "MySQL"],
-  github: "https://github.com/your-repo"
 }
   ]
 
