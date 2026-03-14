@@ -3,21 +3,25 @@ import { Github } from 'lucide-react'
 
 const Projects = () => {
   const projects = [
-    {
-      title: 'Toxic Comment Detection - NLP & BERT',
-      description: 'Content moderation system leveraging BERT and NLP algorithms to classify comments. Integrated RapidAPI for data pipelines and MySQL for scalable storage with optimized query patterns.',
-      image: 'https://images.unsplash.com/photo-1677442d019ceea3e77f2e8d45f44519?w=600&h=400&fit=crop',
-      technologies: ['Python', 'BERT', 'NLP', 'RapidAPI', 'MySQL'],
-      github: 'https://github.com'
-    },
-    {
-      title: 'Online retail Management system',
-      description: 'Production-ready e-commerce platform with Spring Boot. Implemented CRUD operations, product catalog management, file handling via MultipartFile, and JPA relationships. Followed MVC architecture with MySQL persistence layer.',
-      image: 'https://images.unsplash.com/photo-1460925895917-aaf4b51b34b8?w=600&h=400&fit=crop',
-      technologies: ['Spring Boot', 'JPA', 'MySQL', 'REST APIs'],
-      github: 'https://github.com'
-    },
    {
+  title: "Toxic Comment Detection - NLP & BERT",
+  description:
+    "Content moderation system leveraging BERT and NLP algorithms to classify toxic comments with scalable MySQL storage.",
+  image: "https://images.unsplash.com/photo-1526378722440-4a2f5b5a6b1c?w=600&h=400&fit=crop",
+  technologies: ["Python", "BERT", "NLP", "RapidAPI", "MySQL"],
+  github: "https://github.com/your-repo"
+},
+
+{
+  title: "Online Retail Management System",
+  description:
+    "Spring Boot based e-commerce management platform with CRUD operations, product catalog management, and MySQL persistence using JPA.",
+  image: "https://images.unsplash.com/photo-1515169067865-5387ec356754?w=600&h=400&fit=crop",
+  technologies: ["Spring Boot", "JPA", "MySQL", "REST APIs"],
+  github: "https://github.com/your-repo"
+},
+
+{
   title: "Job Application Tracker",
   description:
     "Full stack job management system where users apply for jobs and admins manage job postings and applications.",
