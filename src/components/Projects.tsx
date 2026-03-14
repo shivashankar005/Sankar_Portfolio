@@ -17,6 +17,14 @@ const Projects = () => {
       technologies: ['Spring Boot', 'JPA', 'MySQL', 'REST APIs'],
       github: 'https://github.com'
     },
+    {
+  title: "Job Application Tracker",
+  description:
+    "Full stack job management system where users apply for jobs and admins manage postings and applications.",
+  tech: ["Spring Boot", "MySQL", "Thymeleaf"],
+  github: "https://github.com/shivashankar005/Job_Application_Tracker",
+  demo: "#"
+}
   ]
 
   const containerVariants = {
