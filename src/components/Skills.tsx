@@ -19,17 +19,17 @@ const Skills = () => {
     {
       title: 'Programming Languages',
       icon: Code2,
-      skills: ['Java (Core, OOP)', 'SQL']
+      skills: ['Java']
     },
     {
-      title: 'Backend Framework',
+      title: 'Backend Development',
       icon: Code2,
-      skills: ['Spring Boot', 'REST APIs', 'JPA / Hibernate']
+      skills: ['Spring Boot', 'REST APIs Development', 'JPA / Hibernate']
     },
     {
       title: 'Database',
       icon: Database,
-      skills: ['MySQL']
+      skills: ['SQL','MySQL']
     },
     {
       title: 'Developer Tools',
