@@ -35,7 +35,7 @@ const Hero = () => {
       >
         {/* Main heading */}
         <motion.div variants={itemVariants}>
-          <h1 className="text-5xl md:text-6xl font-bold mb-12 leading-tight">
+          <h1 className="text-5xl md:text-6xl font-bold mb-12 leading-relaxed">
             <span className="block text-white mb-4">Hi, I'm</span>
             <span className="block gradient-text text-5xl md:text-6xl font-bold">
               Gangula Sivasankaravaraprasad
