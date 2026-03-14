@@ -3,22 +3,21 @@ import { Github } from 'lucide-react'
 
 const Projects = () => {
   const projects = [
-{
-  title: "Online Retail Management System",
-  description:
-    "Spring Boot based e-commerce management platform with CRUD operations, product catalog management, and MySQL persistence using JPA.",
-  image: "https://images.unsplash.com/photo-1557821552-17105176677c?w=600&h=400&fit=crop",
-  technologies: ["Spring Boot", "JPA", "MySQL", "REST APIs"],
-  github: "https://github.com/shivashankar005/Online_Retail_Management_System"
-},
-
-{
+    {
   title: "Job Application Tracker",
   description:
     "Full stack job management system where users apply for jobs and admins manage job postings and applications.",
   image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=600&h=400&fit=crop",
   technologies: ["Spring Boot", "MySQL", "Thymeleaf"],
   github: "https://github.com/shivashankar005/Job_Application_Tracker"
+},
+{
+  title: "Online Retail Management System",
+  description:
+    "Spring Boot based e-commerce management platform with CRUD operations, product catalog management, and MySQL persistence using JPA.",
+  image: "https://images.unsplash.com/photo-1557821552-17105176677c?w=600&h=400&fit=crop",
+  technologies: ["Spring Boot", "JPA", "MySQL", "REST APIs"],
+  github: "https://github.com/shivashankar005/retail-management-system"
 }
   ]
 
